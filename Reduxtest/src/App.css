@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .detail-container{
+      width: 70%;
+      margin-top: 20px;
+  }
+  .dataInput{
+      box-sizing: border-box;
+      width: 100%;
+      height: 40px;
+      padding-left: 10px;
+      margin-bottom: 17px;
+      border-radius: 6px;
+      border: 2px solid rgb(161, 181, 228);
+      outline: none;
+  }
+  .addbtn{
+      width: 80px;
+      height: 35px;
+      background-color: rgb(103, 203, 103);
+      border-radius: 6px;
+      color: aliceblue;
+      font-size: 20px;
+      border: none;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  .line{
+      border-bottom: 1px solid rgb(222, 212, 212);
+      width: 70%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .showDetails{
+      width: 70%;
+      display: flex;
+      height: 35px;
+      align-items: center;
+      margin-top: 10px;
+      justify-content: center;
+  }
+  .eachDetails{
+    width: 100%;
+     height: 30px;
+     display: flex;
+     align-items: center;
+  }
+  
+  .removebtn{
+    background-color: rgb(217, 55, 55);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    color: aliceblue;
+    padding: 0 10px;
+  }
